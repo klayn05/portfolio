@@ -137,8 +137,18 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.tech-images img:hover {
-    transform: scale(1.1);
+.tech-stack-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 300px; /* Adjust the value as needed */
+    padding: 0 20px;
+}
+
+
+.tech-item:hover {
+    transform: scale(1.05);
 }
 
 .tech-top-image {
@@ -150,15 +160,18 @@ footer {
 
 .tech-item {
     text-align: center;
+    width: 120px;
+    transition: transform 0.3s ease;
 }
 
 .tech-item img {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
 }
 
 .tech-item p {
-    margin-top: 10px;
     font-size: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     color: #333;
