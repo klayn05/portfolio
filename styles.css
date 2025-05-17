@@ -192,3 +192,9 @@ footer {
     margin-top: 15px;  
     margin-bottom: 15px; 
 }
+
+.section p{
+    font-size: 30px; 
+    line-height: 1.5; 
+    font-family: Arial, sans-serif; 
+}
